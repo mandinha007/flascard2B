@@ -25,6 +25,7 @@ body {
    flex-grow: 1;
    flex-basis: calc(33% - 6rem);
    background-color: rgba(255, 255, 255, 0.5);
+   border-radius: 2em;
 
    
   
@@ -37,6 +38,7 @@ body {
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
+    border-radius: 2em;
    
     
 }
@@ -101,5 +103,22 @@ footer p {
     text-align: center;
     font-size: 0.6rem;
     margin-top: 0.5rem;
+}
+
+@media (max-width: 560px) {
+
+.cartao{
+    flex: 1 0 calc(100% - 1rem)
+}
+
+.cartao__conteudo h3 {
+    font-size: 3vw;
+}
+
+.cartao__conteudo p {
+    font-size: 4vw;
+}
+
+
 }
 

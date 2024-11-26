@@ -5,7 +5,7 @@ criaCartao(
 )
 criaCartao(
     'Spider-men',
-    'Qual o nome completo do Homem Aranha?',
+    'Qual o nome completo do Homem-Aranha?',
     ' Peter Benjamin Parker'
 )
 criaCartao(
@@ -19,5 +19,16 @@ criaCartao(
     'Quantos anos tinha Peter Parker quando foi picado?',
     '15 anos'
 )
+criaCartao(
+    'Spider-men',
+    'Qual é a principal fraqueza do Homem-Aranha?',
+    'Fluido de teia'
+)
+criaCartao(
+    'Spider-men',
+    'Qual é o maior inimigo do Homem-Aranha?',
+    'Duende Verde'
+)
+
 
    
